@@ -4,12 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /*
-API Gateway, as the name suggests, configures a single port as the only access to
-all of the application's API endpoints.
+API Gateway, as the name suggests, centralizes access to all of the application's endpoints via a single port.
 Each API endpoint is accessed by the application name listed within Spring Eureka Naming Server
 Ex: localhost:<Gateway Port>/<APPLICATION_NAME>/<Endpoint Mapping>
 
-Gateways allows you to implement
+Gateways allows you to implement:
 1. Security features (user authentication)
 2. Logging & Metrics
  */
